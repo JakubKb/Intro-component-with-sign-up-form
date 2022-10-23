@@ -1,0 +1,144 @@
+/* ## Colors
+
+### Primary
+
+- Red: hsl(0, 100%, 74%) 
+- Green: hsl(154, 59%, 51%)
+
+### Accent
+
+- Blue: hsl(248, 32%, 49%)
+
+### Neutral
+
+- Dark Blue: hsl(249, 10%, 26%) 
+- Grayish Blue: hsl(246, 25%, 77%)
+*/
+
+@import url(https://fonts.google.com/specimen/Poppins);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:hsl(0, 100%, 74%) ;
+    background-image: url("./images/bg-intro-desktop.png");
+}
+section {
+    
+    justify-content: space-between;
+}
+.Intro {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    left: 300PX;
+    top: -100px;
+    position: relative;
+}
+
+.Intro h1{
+    font-size: 40px;
+}
+
+.try {
+    background-color: hsl(257, 77%, 58%) ;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    padding-left: 10px;
+    width: 500px;
+    height: 50px;
+    
+    bottom: 75px;
+    box-shadow: black 5px 5px;
+}
+
+.try:hover {
+    cursor: pointer;
+}
+
+li input{
+    color: hsl(252, 4%, 26%);
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 5px;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    font-family: "Poppins", sans-serif;
+    
+}
+li {
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 25px;
+}
+.main  {
+    background-color: #fff;
+    padding-top: -10px;
+    width: 500px;
+    display: flex;
+    height: 470px;
+    border-radius: 10px;
+    max-width: 500px;
+    max-height: 470px;
+    position: relative;
+    margin-left: auto;
+    right: 300px;
+    top: 200px;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: black 5px 5px;
+    padding: 0;
+    padding-bottom: 10;
+}
+
+.claim {
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    width: 400px;
+    height: 60px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.main button {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 75px;
+}
+
+.main button:hover {
+    cursor: pointer;
+}
+
+.main p {
+    color: gray;
+    text-align: center;
+}
+
+.main .terms {
+    color: red;
+    cursor: pointer;
+}
